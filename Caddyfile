@@ -1,0 +1,8 @@
+{
+    order webdav before file_server
+}
+
+:80 {
+    root * /srv/webdav
+    webdav
+}
