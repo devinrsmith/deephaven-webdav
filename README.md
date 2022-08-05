@@ -3,5 +3,5 @@
 Proof-of-concept standalone WebDAV server.
 
 ```shell
-docker buildx build -t webdav .
+docker buildx build -t webdav webdav
 ```
