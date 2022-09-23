@@ -2,7 +2,7 @@
 
 # ---------------------------------
 
-FROM caddy:2.5.2-builder AS builder
+FROM caddy:2.6.1-builder AS builder
 ARG CADDY_WEBDAV_VERSION=14bd56b1afc9b1f5a7402e678f25f41dddda26a7
 RUN xcaddy build \
     --with github.com/mholt/caddy-webdav@${CADDY_WEBDAV_VERSION}
