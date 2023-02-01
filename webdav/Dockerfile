@@ -9,7 +9,7 @@ RUN xcaddy build \
 
 # ---------------------------------
 
-FROM ubuntu:22.04
+FROM ubuntu:23.04
 RUN set -eux; \
     mkdir -p /etc/caddy
 COPY --link Caddyfile /etc/caddy/Caddyfile
